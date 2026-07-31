@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.5 on win32)" generated="2026-07-31T09:12:34.040647" rpa="false" schemaversion="5">
+<suite id="s1" name="Screenshot" source="C:\Users\hi\PycharmProjects\RobotFramework\TestCases\Screenshot.robot">
+<test id="s1-t1" name="LoginTC" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-07-31T09:12:34.871918" level="INFO">Opening browser 'chrome' to base url 'https://sparklecartonline.com/'.</msg>
+<arg>https://sparklecartonline.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-07-31T09:12:34.871195" elapsed="19.158400"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-07-31T09:12:54.032065" elapsed="0.318252"/>
+</kw>
+<kw name="Capture Element Screenshot" owner="SeleniumLibrary">
+<msg time="2026-07-31T09:12:54.545619" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Logo.png"&gt;&lt;img src="Logo.png" width="400px"&gt;&lt;/a&gt;</msg>
+<arg>xpath://img[@alt='SparkleCart ']</arg>
+<arg>Logo.png</arg>
+<doc>Captures a screenshot from the element identified by ``locator`` and embeds it into log file.</doc>
+<status status="PASS" start="2026-07-31T09:12:54.351362" elapsed="0.194475"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-07-31T09:12:55.118388" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="LoginTC.png"&gt;&lt;img src="LoginTC.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>LoginTC.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-07-31T09:12:54.551837" elapsed="0.566716"/>
+</kw>
+<status status="PASS" start="2026-07-31T09:12:34.869594" elapsed="20.250347"/>
+</test>
+<status status="PASS" start="2026-07-31T09:12:34.051753" elapsed="21.073815"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Screenshot" id="s1" pass="1" fail="0" skip="0">Screenshot</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
