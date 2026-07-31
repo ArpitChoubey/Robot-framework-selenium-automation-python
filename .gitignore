@@ -1,3 +1,25 @@
+# Robot Framework Reports
+log.html
+report.html
+output.xml
+results/
+
+# Allure
+allure-results/
+allure-report/
+
+# Python Cache
+__pycache__/
+*.pyc
+
 # Virtual Environment
-.venv/
 venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
