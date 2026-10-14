@@ -1,1 +1,1 @@
-*.ipynb linguist-language=Python
+*.robot linguist-detectable=false
