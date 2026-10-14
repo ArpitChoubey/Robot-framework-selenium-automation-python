@@ -1,1 +1,0 @@
-*.resource linguist-detectable=false
