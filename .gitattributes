@@ -1,1 +1,4 @@
+*.html linguist-detectable=false
+*.xml linguist-detectable=false
 *.robot linguist-detectable=false
+*.resource linguist-detectable=false
